@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.logo{
+    height: 50px;
+    padding: 10px 5px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+section{
+    padding:60px 0;
+    overflow:hidden;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/kotha-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+#hero .container{
+    padding-top: 50 px;
+}
+#hero h1{
+    font-size: 48px;
+    font-weight: 700;
+    list-style: 56px;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+#hero h2{
+    color: #eee;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#hero .btn_get_started{
+    font-family:'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px soild #fff;
+    background-color: transparent;
+    color:#fff;
+    transition: 0.6s all;
+}
+#hero .btn_get_started:hover{
+    background-color:#009970;
+    border-color: 2px soild #009970;
+}
+
+.drop_shadow_effect {
+    filter: drop-shadow(3px 3px 3px blue)
+    
+
+}
+#main {
+    height: 30px;
+    width: 155px;
+    background-color: white;
+    background-image:
+        radial-gradient(blue, #fff, #2a4f32);
+}
+
+.navbar-brand {
+    text-align: center;
+    font-size: 20px;
+    font-weight: ;
+    padding-top: 10px;
+}
+body {
+    background-color: lightgray;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

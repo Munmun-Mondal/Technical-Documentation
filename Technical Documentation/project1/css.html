@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"> 
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>GetknowWebDev</title>
+  </head>
+ 
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+
+        <a href=""><img  class="logo drop_shadow_effect" class="logo" src="log.png"></a>
+        <div id="main">
+        <a class="navbar-brand " href="#">GetknowWebDev</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item btn btn-light">
+              <a class="nav-link active" aria-current="page" href="./web.html">Home</a>
+            </li>
+            <li class="nav-item btn btn-light">
+              <a class="nav-link" href="./htmlintro.html" target="_self">HTML</a>
+            </li>
+            <li class="nav-item btn btn-light">
+              <a class="nav-link" href="./css.html">CSS</a>
+            </li>
+            <li class="nav-item btn btn-light">
+              <a class="nav-link" href="./javascript.html">JavaScript</a>
+            </li>
+            <li class="nav-item btn btn-light">
+              <a class="nav-link" href="./java.html">Java</a>
+            </li>
+           
+            
+           
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+        </div>
+    </nav>
+        <link rel="stylesheet" href="htmlintro.css">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+           </div>
+           <br>
+         <h4>What is CSS?</h4>
+         <p>CSS (Cascading Style Sheets) is used to styles web pages. Cascading Style Sheets are fondly referred to as CSS. The reason for using this is to simplify the process of making web pages presentable. It allows you to apply styles on web pages. More importantly, it enables you to do this independently of the HTML that makes up each web page.</p> 
+        <h5>Why learn CSS?</h5>
+        <p>Styling is an essential property for any website. It increases the standards and overall look of the website that makes it easier for the user to interact with it. A website can be made without CSS, as styling is MUST since no user would want to interact with a dull and shabby website. So for knowing Web Development, learning CSS is mandatory.</p>
+        <p><b>CSS Code Format:</b> It is the basic structure of the CSS style of a webpage.</p>>
+
+          <p>body {<br>
+              background-color: lightgray;<br>
+          }<br>
+          h1 {<br>
+              color: green;<br>
+              text-align: center;<br>
+          }<br>
+          p {<br>
+              font-family: sans-serif;<br>
+              font-size: 16px;<br>
+          }</p>
+         <p> Types of CSS: There are three types of CSS which are given below.</p> 
+
+          <li><b>Inline:</b>Inline CSS contains the CSS property in the body section attached with the element known as inline CSS.</li>
+          <li><b>Internal or Embedded:</b>The CSS ruleset should be within the HTML file in the head section i.e the CSS is embedded within the HTML file.</li>
+          <li><b>External:</b>External CSS contains a separate CSS file that contains only style property with the help of tag attributes.
+          </li>
+          <P><b>Example:</b> Let’s see a small example of HTML webpage with CSS styles. Here, we use styles to set the alignment and text color of a webpage.</P>
+         <P><B>CSS Key Features:</B></P>
+         <LI>CSS specifies how HTML elements should be displayed on screens.</LI>
+         <LI>The Major key feature of CSS includes styling rules which are interpreted by the client browser and applied to various elements.</LI>
+         <LI>Using CSS, you can control the color text, the style of fonts, spacing between elements, how columns are sized, variation in display for different devices and screen size as well as a variety of other effects.</LI><br>
+        <h5><b>CSS Functions</b></h5>
+        <p><b>CSS functions</b> are used to set the various CSS property. For example, the attr() function is used to retrieve the value of the HTML attribute. </p>
+        <h6><b>The complete list of CSS Functions is given below:</b></h6>
+        <table>
+          <tr>
+            <th>Functions</th>
+            <th>Description</th>
+            <th>Syntax</th>
+            <th>Parameters</th>
+          </tr>
+          <tr>
+            <td>attr()</td>
+            <td>It is an inbuilt function in CSS that returns the value of an attribute of the selected elements.</td>
+            <td>attr( attr_name )</td>
+            <td>This function accepts a single parameter attr_name which is used to hold the name of the attribute in an HTML element. It is a mandatory parameter.</td>
+          </tr>
+          <tr>
+            <td>blur()</td>
+            <td>It is an inbuilt function which is used to apply a blurred effect filter on the image. </td>
+            <td>blur( radius )</td>
+            <td>This function accepts single parameter radius which holds the blur radius in form of length. This parameter defines the value of the standard deviation to the Gaussian function. </td>
+          </tr>
+          <tr>
+            <td>brightness()</td>
+            <td> It is an inbuilt function which is used to apply a filter to set the brightness of the image. This function uses the linear multiplier to the image to increase or decrease brightness. </td>
+            <td>brightness( amount )</td>
+            <td>This function accepts single parameter amount which holds the amount of brightness. The value of brightness is set in terms of number and percentage. The value 0% represents completely black image and 100% represents the original image. </td>
+          </tr>
+          <tr>
+            <td>calc()</td>
+            <td>It is an inbuilt function in CSS that is used to perform calculations based on CSS property.</td>
+            <td>calc( Expression )</td>
+            <td> This function accepts single parameter Expression which is mandatory. This parameter contains mathematical expressions which need to implement. The operators used by this parameters are: +, -, *, /</td>
+          </tr>
+          <tr>
+            <td>circle()</td>
+            <td>It is an inbuilt function in CSS that is used to create floating text around the circular shape picture or anything else.</td>
+            <td>circle(100px at 10px 150px); or circle( percentage );</td>
+            <td>This function accepts a single parameter length or percentage which is used to hold the value of radius. It is a mandatory parameter.</td>
+          </tr>
+          <tr>
+            <td>conic-gradient() </td>
+            <td>It is an inbuilt function in CSS that is used to set a conic gradient as the background image. The conic gradient angle starts from 0 degrees – 360 degrees. Conic are circular and use the center of the element as the source point for color stop.<br> 
+              Conic Gradients include pie charts and color wheels. The result of the conic-gradient() function is an object of the data type, which is a special kind of image. </td>
+            <td>Background image: conic-gradient(color degree, color degree, ...) </td>
+            
+          </tr>
+          <tr>
+            <td>contrast() </td>
+            <td>It is an inbuilt function which is used to apply a filter to set the contrast of the image. This function adjusts the contrast of the image. </td>
+            <td>contrast( amount )</td>
+            <td>This function accepts single parameter amount which holds the amount of contrast. The value of contrast is set in terms of value and percentage. The value 0% represents completely gray image and 100% represents the original image. </td>
+          </tr>
+          <tr>
+            <td>drop-shadow()</td>
+            <td>It is an inbuilt function which is used to apply a filter to the image to set the shadow of the image. The drop-shadow() function creates a blurred shadow in a given offset and color. </td>
+            <td>drop-shadow( offset-x offset-y blur-radius spread-radius color )</td>
+            <td>This function accepts five parameters as mentioned above and described below:<br><li><b>offset-x:</b> This parameter sets the horizontal offset of an image. The positive value creates the offset to the right side and negative value creates the offset to the left side.</li><li><b>offset-y:</b>This parameter sets the vertical offset of an image. The positive value creates the offset to the bottom side and negative value creates the offset to the top side.</li><li><b>blur-radius:</b> It sets the value of blur radius. It is an optional parameter.</li><li><b>spread-radius: </b>It sets the value of spread radius. It is an optional parameter.</li<li><b>color:</b> It sets the color of drop shadow. Its optional parameter.</li>></td>
+          </tr>
+          <tr>
+            <td>linear-gradient() </td>
+            <td>It is an inbuilt function in CSS that is used to set the linear gradient as the background image.</td>
+            <td>background-image: linear-gradient( direction, color1, color2, ... )</td>
+            <td> This function accepts one direction parameter and many color parameters which are listed below:<br> 
+
+             <b> direction:</b> This parameter is used to define the starting point and direction along with the gradient effect.<br>
+              <b>color1, color2, …:</b> This parameter is used to hold the color value followed by its optional stop position.</td>
+          </tr>
+          <tr>
+            <td>url()</td>
+            <td>It is an inbuilt function that is used to include a file. The parameter of this function is absolute URL, relative URL or a data URI. The url() function can be used for background-image, border-image, list-style-image, content, cursor, border-image, border-image-source, src as part of a @font-face block, and @counter-style/symbol.</td>
+            <td>url( <string> <url-modifier>* )</td>
+            <td>This function accepts a single parameter url which holds the url in string format. </td>
+          </tr>
+          </table><br>
+          <h6><b>Advantages of CSS:</b></h6>
+          <li>CSS plays an important role, by using CSS you simply got to specify a repeated style for element once & use it multiple times as because CSS will automatically apply the required styles.</li>
+          <li>The main advantage of CSS is that style is applied consistently across variety of sites. One instruction can control several areas which is advantageous.</li>
+          <li>Web designers needs to use few lines of programming for every page improving site speed.</li>
+          <li>Cascading sheet not only simplifies website development, but also simplifies the maintenance as a change of one line of code affects the whole web site and maintenance time.</li>
+          <li>It is less complex therefore the effort are significantly reduced.</li>
+          <li>It helps to form spontaneous and consistent changes.</li>
+          <li>CSS changes are device friendly. With people employing a batch of various range of smart devices to access websites over the web, there’s a requirement for responsive web design.</li>
+          <li>It has the power for re-positioning. It helps us to determine the changes within the position of web elements who are there on the page.</li>
+          <li>These bandwidth savings are substantial figures of insignificant tags that are indistinct from a mess of pages.</li>
+          <li>Easy for the user to customize the online page
+            It reduces the file transfer size.</li><br>
+            <h6><b>Disadvantages of CSS:</b></h6>
+          <li>CSS, CSS 1 up to CSS3, result in creating of confusion among  web browsers.</li>
+          <li>With CSS, what works with one browser might not always work with another. The web developers need to test for compatibility, running the program across multiple browsers.</li>
+          <li>After making the changes we need to confirm the compatibility if they appear. The similar change affects on all the browsers.</li>
+          <li>The programming language world is complicated for non-developers and beginners. Different levels of CSS i.e. CSS, CSS 2, CSS 3 are often quite confusing.</li>
+          <li>Browser compatibility (some styles sheet are supported and some are not).</li>
+          <li>CSS works differently on different browsers. IE and Opera supports CSS as different logic.</li>
+          <li>There might be cross-browser issues while using CSS.<br>
+            There are multiple levels which creates confusion for non-developers and beginners.</li>
+          
+         
+        
+        </body>
+</html>
